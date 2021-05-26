@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "269318065353",
+    "firebase_url": "https://hinojos-b339d.firebaseio.com",
+    "project_id": "hinojos-b339d",
+    "storage_bucket": "hinojos-b339d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269318065353:android:342c2b948721f434",
+        "android_client_info": {
+          "package_name": "app.example.usuario.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269318065353-qe5othhnbj7sn6r47b3ahkgmf1ve30d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA53c0cR2BlBpVodqySIsycE87G88v2YNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269318065353:android:aee294c27433ea30",
+        "android_client_info": {
+          "package_name": "com.example.usuario.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269318065353-qe5othhnbj7sn6r47b3ahkgmf1ve30d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA53c0cR2BlBpVodqySIsycE87G88v2YNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

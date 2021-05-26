@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12a9d5</color>
+    <color name="colorPrimaryDark">#12a9d5</color>
+    <color name="colorAccent">#f50c1c</color>
+    <color name="gpsError">#F21D07</color>
+    <color name="gpsCorrecto">#2BAD04</color>
+</resources>

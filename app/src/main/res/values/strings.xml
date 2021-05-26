@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App Hinojos</string>
+    <string name="navigation_drawer_open">Abrir el menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar el menu de navegacion</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">info@hinojos.es</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="img_noticia">Imagen de la noticia</string>
+    <string name="titulo_noticia">Título de la notica</string>
+    <string name="texto_noticia">Texto de la noticia</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

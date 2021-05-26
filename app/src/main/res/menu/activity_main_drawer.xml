@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/historia"
+            android:icon="@drawable/ic_historia"
+            android:title="Historia" />
+        <item
+            android:id="@+id/turismo"
+            android:icon="@drawable/ic_turismo"
+            android:title="Ocio" />
+        <item
+            android:id="@+id/telefonos"
+            android:icon="@drawable/ic_telefonos"
+            android:title="Teléfonos" />
+    </group>
+
+    <item android:title="Comunicación">
+        <menu>
+            <item
+                android:id="@+id/noticias"
+                android:icon="@drawable/ic_noticias"
+                android:title="Noticias" />
+            <item
+                android:id="@+id/contactar"
+                android:icon="@drawable/ic_contactar"
+                android:title="Contactar" />
+            <item
+                android:id="@+id/incidencia"
+                android:icon="@drawable/ic_incidencia"
+                android:title="Notificar incidencia" />
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/ic_salir"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>
+
+

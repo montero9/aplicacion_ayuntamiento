@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.example.usuario.proyecto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="App Hinojos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.listado_noticias"
+            android:label="Noticias"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.info_noticia"
+            android:label="Detalles de la noticia"
+            android:parentActivityName=".activities.listado_noticias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.historia"
+            android:label="Historia de Hinojos"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.telefonos"
+            android:label="Teléfonos de interés"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".activities.contactar"
+            android:label="Contactar"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.incidencia_package.incidencia_mapa"
+            android:label="Incidencia"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.incidencia_package.incidencia_foto"
+            android:label="Añadir foto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.incidencia_package.formulario_incidencia"
+            android:label="Información"
+            android:screenOrientation="portrait" />
+
+        <!-- A partir de la API 24, necesitamos un FileProvider para poder acceder a los archivos -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+        <activity
+            android:name=".activities.turismo_package.ocio"
+            android:label="Ocio"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.turismo_package.mapa_turistico"
+            android:label="¿Qué visitar?"
+            android:parentActivityName=".activities.turismo_package.ocio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.turismo_package.web_info_marcador"
+            android:label="@string/app_name"
+            android:parentActivityName=".activities.listado_noticias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.turismo_package.mapa_restaurantes"
+            android:label="¿Dónde comer?"
+            android:parentActivityName=".activities.turismo_package.ocio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.turismo_package.mapa_alojamiento"
+            android:label="¿Dónde dormir?"
+            android:parentActivityName=".activities.turismo_package.ocio"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

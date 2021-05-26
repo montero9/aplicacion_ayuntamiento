@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="111dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="293dp"
+            android:layout_height="195dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="84dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo_ayto_verde" />
+
+
+        <ImageView
+            android:id="@+id/iv_ver_noticia"
+            android:layout_width="128dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/lg_noticias" />
+
+
+        <ImageView
+            android:id="@+id/iv_registrar_incidencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="56dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/lg_incidencia" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginBottom="10dp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="bottom|center">
+
+        <ImageView
+            android:id="@+id/iv_separador"
+            android:layout_width="411dp"
+            android:layout_height="16dp"
+            tools:layout_editor_absoluteY="-7dp" />
+
+        <ImageView
+            android:id="@+id/iv_icono"
+            android:layout_width="97dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="23dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_tempactual"
+            android:layout_width="53dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_tempmax"
+            android:layout_width="125dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_tempactual"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_tempmin"
+            android:layout_width="123dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_tempactual"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tempmax" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

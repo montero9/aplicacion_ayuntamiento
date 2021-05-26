@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Enlaces para el mapa de turismo -->
+    <string name="igle_santiago_apostol">http://www.hinojos.es/es/turismo/monumentos/edificios-religiosos/#iglesia-parroquial-de-santiago-el-mayor</string>
+    <string name="ermi_senora_valle">https://andaluciarustica.com/hinojos-ermita-de-nuestra-senora-del-valle.htm</string>
+    <string name="parque_centenales">https://www.mapama.gob.es/es/red-parques-nacionales/nuestros-parques/donana/guia-visitante/centenales.aspx</string>
+    <string name="ayto_hinojos">http://www.hinojos.es/es/turismo/monumentos/edificios-civiles/#ayuntamiento</string>
+    <string name="cerrillo">http://www.hinojos.es/es/turismo/monumentos/fuentes/</string>
+
+    <!-- Enlaces para el mapa de restaurantes -->
+    <string name="choza_hinojos">https://www.tripadvisor.es/Restaurant_Review-g2449434-d5487536-Reviews-La_Choza-Hinojos_Province_of_Huelva_Andalucia.html</string>
+    <string name="bodeguita">https://www.tripadvisor.es/Restaurant_Review-g2449434-d7612206-Reviews-La_Bodeguita-Hinojos_Province_of_Huelva_Andalucia.html</string>
+    <string name="cucu">https://es.restaurantguru.com/BAR-ER-CUCU-Hinojos</string>
+    <string name="bar_central">https://es.restaurantguru.com/Bar-Central-Hinojos</string>
+    <string name="ratones">http://elmundoentumovil.com/anuncio/pizzeria-los-ratones-coloraos/</string>
+
+    <!-- Enlaces para el mapa de restaurantes -->
+    <string name="casa_rural_los_pinos">https://www.tripadvisor.es/Hotel_Review-g2449434-d2550692-Reviews-Casa_Rurales_Los_Pinos-Hinojos_Province_of_Huelva_Andalucia.html</string>
+    <string name="donarrayan">http://www.donarrayan-park.com/es/index.html</string>
+
+
+</resources>
