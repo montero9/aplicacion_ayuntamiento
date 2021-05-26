@@ -1,4 +1,4 @@
-<h2>Aplicación android para Ayuntamientos</h2>
+<h1>Aplicación Android para Ayuntamientos</h1>
 
 
 La aplicación AppHinojos, permite a los ciudadanos estar al tanto de las noticas del pueblo, así como contactar con el ayuntamiento, enviar incidencias, ver sitios de interés, listín telefónico, historia del pueblo, etc.
